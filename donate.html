@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ahar-Donate</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Overpass:300,400,400i,600,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+    <script type="text/javascript">var submitted = false</script>
+    
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Ahar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          
+          <li class="nav-item active"><a href="donate.html" class="nav-link">Donate</a></li>
+          
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="associates.html" class="nav-link">Associates</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- END nav -->
+    
+    <div class="hero-wrap" style="background-image: url('images/bg_2.jpg');" data-stellar-background-ratio="0.5">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-7 ftco-animate text-center" data-scrollax=" properties: { translateY: '70%' }">
+            <p class="breadcrumbs" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }"><span class="mr-2"><a href="cancel.html">Cancel</a ></span> <span>Donate</span></p>
+            <h1 class="mb-3 bread" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">Help us add smiles. Schedule a pickup below</h1>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <iframe name="hiddenConfirm" id="hiddenConfirm" style="display:none ;" onload="if(submitted){window.location='confirm.html';}"></iframe>
+    <div id="form">
+      <form method="post" autocomplete="off" name="google-sheet" 
+                                    action="https://docs.google.com/forms/u/1/d/e/1FAIpQLSc__SYkxrsux4TOlw30Be_NWiKUm24NWavcDmdZX1LJFM3R6w/formResponse" target="hiddenConfirm" onsubmit="submitted=true">
+
+                                        <div class="form-group">
+                                            <span></span>
+                                            <input type="text" name="entry.2005620554" class="form-control" placeholder="Your Name *" value="" required=""/>
+                                        </div>
+                                        <div class="form-group">
+                                          
+                                            <input type="email" name="entry.1045781291" class="form-control" placeholder="Your Email *" value="" required=""/>
+                                        </div>
+                                        <div class="form-group">
+                                          <span name="formerror"><b></b></span>
+                                            <input type="tel" name="entry.1166974658"  pattern="[789][0-9]{9}"                           class="form-control" placeholder="Your Contact Number * (eg: 123-456-7890)" value="" required=""/>
+                                        </div>
+                                        <div class="form-group">
+                                          
+                                            
+                                            <input type="text" name="entry.1065046570" class="form-control" placeholder="Address*" value="" required=""/>
+                                        </div>
+                                        <div class="form-group">
+                                          
+                                            <input type="zip" name="entry.839337160" class="form-control" placeholder="Pincode* (eg:700084)" value="" required=""/>
+                                        </div>
+                                        <div class="form-group">
+                                          
+                                          <input type="date" name="entry.1584626526" class="form-control"  value="" required=""/>
+                                      </div>
+                                        
+                                        <div class="form-group">
+                                          
+                                            <label for="Time" id="timelabel" >Time Slot</label>
+                                            <select id="Time" name="#">
+                                                <option value="day">10-30am-12-30pm</option>
+                                                <option value="afternoon">3-30pm-5-30pm</option>
+                                                <option value="night">11-30pm-1-30am</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            
+                                            <center><input type="submit"  value="Confirm Pickup" class="btn btn-primary py-3 px-5"   > </button><br></center>
+                                           
+                                        </div>
+                                    </form>
+    </div>
+    <div><br> <br>
+          <h4> *Cancel A Pickup: A cancellation link is also attached to our confirmation mail. If you want to cancel your donation just click on the 'Cancel Pickup' link
+            </h4>
+
+      </div>
+
+    
+    
+    
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <h1><center>Our Volunters</center> </h1>
+        <div class="row">
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+                
+        				<div class="img" style="background-image: url(images/rishav.jpg);"></div>
+        				<div class="info ml-4">
+                  
+        					<h3><a href="teacher-single.html">Rishav De</a></h3>
+        					<span class="position">Founding Member</span>
+        					
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/ipsha.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Ipsha Hazra</a></h3>
+        					<span class="position">Founding Member</span>
+        					
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/person_3.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Dibyo Ghosh</a></h3>
+        					<span class="position">founding Member</span>
+        					
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+
+          
+        	<!-- <div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/person_6.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<span class="position">Donated Just now</span>
+        					<div class="text">
+		        				<p>Donated <span>$250</span> for <a href="#">Children Needs Food</a></p>
+		        			</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/person_7.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<span class="position">Donated Just now</span>
+        					<div class="text">
+		        				<p>Donated <span>$300</span> for <a href="#">Children Needs Food</a></p>
+		        			</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/person_8.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<span class="position">Donated Just now</span>
+        					<div class="text">
+		        				<p>Donated <span>$150</span> for <a href="#">Children Needs Food</a></p>
+		        			</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="col-lg-4 d-flex mb-sm-4 ftco-animate">
+        		<div class="staff">
+        			<div class="d-flex mb-4">
+        				<div class="img" style="background-image: url(images/person_9.jpg);"></div>
+        				<div class="info ml-4">
+        					<h3><a href="teacher-single.html">Ivan Jacobson</a></h3>
+        					<span class="position">Donated Just now</span>
+        					<div class="text">
+		        				<p>Donated <span>$250</span> for <a href="#">Children Needs Food</a></p>
+		        			</div>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+        <div class="row mt-5">
+          <div class="col text-center">
+            <div class="block-27">
+              <ul>
+                <li><a href="#">&lt;</a></li>
+                <li class="active"><span>1</span></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#">&gt;</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- <section class="ftco-section-3 img" style="background-image: url(images/bg_3.jpg);">
+    	<div class="overlay"></div>
+    	<div class="container">
+    		<div class="row d-md-flex">
+    		<div class="col-md-6 d-flex ftco-animate">
+    			<div class="img img-2 align-self-stretch" style="background-image: url(images/bg_4.jpg);"></div>
+    		</div>
+    		<div class="col-md-6 volunteer pl-md-5 ftco-animate">
+    			<h3 class="mb-3">Be a volunteer</h3>
+    			<form action="#" class="volunter-form">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Your Email">
+            </div>
+            <div class="form-group">
+              <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Send Message" class="btn btn-white py-3 px-5">
+            </div>
+          </form>
+    		</div>    			
+    		</div>
+    	</div>
+    </section> -->
+
+    <footer class="ftco-footer ftco-section img">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About Us</h2>
+              <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Recent Blog</h2>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2">
+             <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Site Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="index.html" class="py-2 d-block">Home</a></li>
+                <li><a href="about.html" class="py-2 d-block">About</a></li>
+                <li><a href="#" class="py-2 d-block">Donate</a></li>
+                
+                
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">6/3, North Purbachal, Kolkata-700101,West Bengal</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91-8697775675</span></a></li>
+	                <li><a href="mailto:helptofeedindia03@gmail.com"><span class="icon icon-envelope"></span><span class="text">help2feedindia@gmail.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved 
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+  // <script>
+  //   function seterror(id,error){
+  //       element = document.getElementById(id);
+  //       element.getElementsByClassName('formerror')[0].innerHTML = error;
+  //   }
+  //   function validateform(){
+  //     var returnvalue = true;
+  //     var name = document.forms["google-sheet"]["entry.2005620554"].value;
+  //     if (name.length<2){
+  //       seterror("entry.2005620554","*Invalid input")
+  //     }
+  //     console.log(name); 
+  //     return returnvalue;
+  //   }
+  //   </script>
+</html>
